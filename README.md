@@ -1,4 +1,4 @@
-#Inledning
+# Inledning
 Att dekryptera monoalfabetiska substitutionschiffer är inte särskilt svårt men det kräver att man har bra träningsdata (korpus). 
 I detta projekt dekrypteras monoalfabetiska substitutionschiffer med hill climbing och simulated annealing genom att att utvärdera 
 hur "engelsk" den dekrypterade texten är. Med engelsk menas hur frekvent varje n-gram av bokstavsföljder i den dekrypterade texten är i ens korpus. 
@@ -10,7 +10,7 @@ genereras text genom att beräkna sannolikheten givet k föregående, vad nästk
 av respektive n-gram av ordföljder. Observera att antalet engelska ord är betydligt fler än antalet engelska bokstäver (26). Därför begränsas nyckel-
 värde-tabellerna till 50000 par. 
 
-#Kod
+# Kod
 I koden kan en välja mellan att dekryptera eller generera text där `mode = 0` i `main()` anger dekryptering, `mode = 1` anger textgenerering. 
 `mode2 = 2` anger att generera text utifrån två föregående ord och `mode2 = 3` anger att generera text utifrån tre föregående ord. 
 Observera att filer är korpus är ej uppladdade på grund av dess storlek. Användaren rekommenderas dock att delvis använda korpus från 
