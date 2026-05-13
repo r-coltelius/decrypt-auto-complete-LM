@@ -1,0 +1,17 @@
+corpus_text.json
+bigram_table.json
+bigram_words_table.json
+freq_table.json
+onegram_table.json
+quadgram_words_table.json
+trigram_table.json
+trigram_words_table.json
+dream.zip
+gutenberg.txt
+corpus_text.txt
+reuters.txt
+dream-en-open.xml.bz2
+nltk
+__MACOSX/
+__pycache__/
+.vscode/
